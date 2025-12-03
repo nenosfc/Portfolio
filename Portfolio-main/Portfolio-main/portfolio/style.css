@@ -1,0 +1,148 @@
+:root {
+    --bg-color: #0f172a;
+    --bg-alt: #1e293b;
+    --text-primary: #f8fafc;
+    --text-secondary: #94a3b8;
+    --accent: #38bdf8;
+    --accent-hover: #0ea5e9;
+    --font-main: 'Outfit', sans-serif;
+    --transition: all 0.3s ease;
+}
+
+body {
+    font-family: var(--font-main);
+    background-color: var(--bg-color);
+    color: var(--text-primary);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+/* Bootstrap Overrides & Utilities */
+.text-accent {
+    color: var(--accent) !important;
+}
+
+.bg-alt {
+    background-color: var(--bg-alt);
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    background: linear-gradient(to right, var(--accent), #a855f7);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Navbar Customization */
+.navbar {
+    background: rgba(15, 23, 42, 0.9) !important;
+    backdrop-filter: blur(10px);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color: var(--text-primary) !important;
+    font-weight: 500;
+    transition: var(--transition);
+}
+
+.nav-link:hover {
+    color: var(--accent) !important;
+}
+
+/* Buttons Customization */
+.btn-primary {
+    background-color: var(--accent);
+    border-color: var(--accent);
+    color: var(--bg-color);
+    font-weight: 600;
+}
+
+.btn-primary:hover {
+    background-color: var(--accent-hover);
+    border-color: var(--accent-hover);
+    color: var(--bg-color);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px -10px rgba(56, 189, 248, 0.5);
+}
+
+.btn-outline-primary {
+    color: var(--accent);
+    border-color: var(--accent);
+    font-weight: 600;
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--accent);
+    border-color: var(--accent);
+    color: var(--bg-color);
+}
+
+/* Hero Section */
+.hero-section {
+    min-height: 100vh;
+    padding-top: 80px;
+    background: radial-gradient(circle at top right, #1e293b 0%, transparent 40%),
+        radial-gradient(circle at bottom left, #1e293b 0%, transparent 40%);
+}
+
+.social-icon {
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: var(--transition);
+}
+
+.social-icon:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-3px);
+    color: var(--accent) !important;
+    border-color: var(--accent);
+}
+
+/* Forms */
+.form-control:focus {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: var(--accent);
+    color: var(--text-primary);
+    box-shadow: none;
+}
+
+.form-control::placeholder {
+    color: var(--text-secondary);
+    opacity: 0.7;
+}
+
+/* Footer */
+.footer {
+    border-top-color: rgba(255, 255, 255, 0.05) !important;
+}
+
+.hover-accent:hover {
+    color: var(--accent) !important;
+}
+
+/* Animations */
+.animate-up {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeInUp 0.8s forwards;
+}
+
+.delay-1 { animation-delay: 0.2s; }
+.delay-2 { animation-delay: 0.4s; }
+.delay-3 { animation-delay: 0.6s; }
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

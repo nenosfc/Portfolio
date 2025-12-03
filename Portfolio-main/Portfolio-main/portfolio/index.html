@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jose Miguel Rodriguez | Desarrollador Web</title>
+    <meta name="description"
+        content="Portfolio de Jose Miguel Rodriguez Talaveron, estudiante de Desarrollo de Aplicaciones Web.">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-accent" href="#">JM.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav gap-3">
+                    <li class="nav-item"><a class="nav-link" href="#hero">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">Sobre Mí</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="hero" class="hero-section d-flex align-items-center">
+        <div class="container text-center">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 hero-content">
+                    <h1 class="display-3 fw-bold animate-up">Hola, soy <span class="text-accent">Jose Miguel</span></h1>
+                    <h2 class="h3 text-secondary mb-4 animate-up delay-1">Desarrollador de Aplicaciones Web</h2>
+                    <p class="lead text-secondary mb-5 animate-up delay-2">Estudiante de 2º DAW apasionado por crear
+                        experiencias digitales únicas.</p>
+
+                    <div class="social-links d-flex justify-content-center gap-3 mb-5 animate-up delay-3">
+                        <a href="#" title="LinkedIn" class="social-icon text-decoration-none text-white">👨‍💼
+                            LinkedIn</a>
+                        <a href="https://github.com/nenosfc" title="GitHub"
+                            class="social-icon text-decoration-none text-white" target="_blank">💻 GitHub</a>
+                        <a href="#" title="Twitter" class="social-icon text-decoration-none text-white">🐦 Twitter</a>
+                        <a href="#" title="Instagram" class="social-icon text-decoration-none text-white">📸
+                            Instagram</a>
+                    </div>
+
+                    <div class="cta-buttons d-flex justify-content-center gap-3 animate-up delay-3">
+                        <a href="#contact" class="btn btn-primary rounded-pill px-4 py-2">Contactar</a>
+                        <a href="#cv-section" class="btn btn-outline-primary rounded-pill px-4 py-2">Ver CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Sobre Mí & Video CV</h2>
+            <div class="row align-items-center g-5">
+                <div class="col-md-6 about-text">
+                    <p class="text-secondary lead">Soy Jose Miguel Rodriguez Talaveron, actualmente cursando el segundo
+                        año de Desarrollo de Aplicaciones Web. Me especializo en tecnologías frontend y backend,
+                        buscando
+                        siempre aprender las últimas tendencias del sector.</p>
+                    <p class="text-secondary lead">Mi objetivo es convertirme en un desarrollador Full Stack capaz de
+                        liderar proyectos innovadores.</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="video-wrapper ratio ratio-16x9 shadow-lg rounded-4 overflow-hidden">
+                        <iframe width="560" height="315"
+                            src="https://www.youtube-nocookie.com/embed/Ds8lRXWfoPE?si=7JSvLKH9Cfx4Kq7N"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Proyectos</h2>
+            <div class="row g-4">
+                <!-- Project 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 bg-alt border-secondary">
+                        <div class="card-img-top bg-dark d-flex align-items-center justify-content-center"
+                            style="height: 200px;">
+                            <span class="display-4">💻</span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-accent">Primera página web</h5>
+                            <p class="card-text text-secondary">Una página web sencilla que desarrollé para una
+                                actividad.</p>
+                            <a href="https://github.com/nenosfc/Actividad-17-RSS-PaginaWeb" target="_blank"
+                                class="btn btn-sm btn-outline-primary rounded-pill">Ver Código</a>
+                            <a href="https://candid-gumdrop-8e80e1.netlify.app/" target="_blank"
+                                class="btn btn-sm btn-primary rounded-pill ms-2">Demo Live</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 bg-alt border-secondary">
+                        <div class="card-img-top bg-dark d-flex align-items-center justify-content-center"
+                            style="height: 200px;">
+                            <span class="display-4">📱</span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-accent">Juego de contador</h5>
+                            <p class="card-text text-secondary">Un pequeño juego de un contador que realicé para una
+                                actividad.</p>
+                            <a href="https://github.com/nenosfc/Jarrowin" target="_blank"
+                                class="btn btn-sm btn-outline-primary rounded-pill">Ver Código</a>
+                            <a href="https://jarrowin.netlify.app/" target="_blank"
+                                class="btn btn-sm btn-primary rounded-pill ms-2">Demo Live</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CV Section -->
+    <section id="cv-section" class="section bg-alt py-5">
+        <div class="container text-center">
+            <h2 class="section-title mb-4">Curriculum Vitae</h2>
+            <p class="text-secondary mb-4">Puedes ver mi trayectoria académica y profesional en detalle.</p>
+            <div class="cv-actions mb-4">
+                <a href="assets/img/cv.jpg" class="btn btn-primary rounded-pill px-4 py-2 me-2"
+                    download="CV_Jose_Miguel.jpg">📥 Descargar CV</a>
+                <a href="#" id="toggle-cv" class="btn btn-outline-primary rounded-pill px-4 py-2">👁️ Ver Online</a>
+            </div>
+            <div id="cv-preview" class="cv-preview mt-4" style="display: none;">
+                <img src="assets/img/cv.jpg" alt="Curriculum Vitae" class="img-fluid rounded shadow-lg">
+            </div>
+
+            <h2 class="section-title mt-5 mb-4">Contacto</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-6">
+                    <form id="contact-form" class="contact-form text-start">
+                        <div class="mb-3">
+                            <label for="name" class="form-label text-secondary">Nombre</label>
+                            <input type="text" class="form-control bg-dark text-light border-secondary" id="name"
+                                name="name" required placeholder="Tu nombre">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label text-secondary">Email</label>
+                            <input type="email" class="form-control bg-dark text-light border-secondary" id="email"
+                                name="email" required placeholder="tu@email.com">
+                        </div>
+                        <div class="mb-4">
+                            <label for="message" class="form-label text-secondary">Mensaje</label>
+                            <textarea class="form-control bg-dark text-light border-secondary" id="message"
+                                name="message" rows="5" required placeholder="¿En qué puedo ayudarte?"></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary rounded-pill px-5 py-2">Enviar Mensaje
+                                ✉️</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-4 text-center border-top border-secondary">
+        <div class="container">
+            <p class="text-secondary mb-2">&copy; 2025 Jose Miguel Rodriguez Talaveron. Todos los derechos reservados.
+            </p>
+            <div class="footer-social d-flex justify-content-center gap-3">
+                <a href="#" class="text-decoration-none text-secondary hover-accent">LinkedIn</a>
+                <a href="https://github.com/nenosfc" target="_blank"
+                    class="text-decoration-none text-secondary hover-accent">GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
