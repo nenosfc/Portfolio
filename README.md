@@ -60,7 +60,3 @@ Siéntete libre de inspeccionar el código, aprender de él, o adaptarlo para tu
 * **GitHub:** [https://github.com/nenosfc](https://github.com/nenosfc)
 
 ---
-
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia **MIT**. Consulta el archivo `LICENSE` para más detalles (si aplica).
