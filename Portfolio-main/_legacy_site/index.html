@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>José Miguel Rodríguez | Web Developer</title>
+    <meta name="description"
+          content="Portfolio de José Miguel Rodríguez Talaverón, desarrollador de aplicaciones web especializado en tecnologías Full Stack.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold text-accent" href="#">JM.</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav gap-3">
+                <li class="nav-item"><a class="nav-link" href="#hero">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">Sobre Mí</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Habilidades</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Proyectos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#cv-section">CV & Contacto</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header id="hero" class="hero-section d-flex align-items-center">
+    <div class="container text-center">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 hero-content">
+                <h1 class="display-3 fw-bold animate-up">Hola, soy <span class="text-accent">José Miguel</span></h1>
+                <h2 class="h3 text-secondary mb-4 animate-up delay-1">Web Developer</h2>
+                <p class="lead text-secondary mb-5 animate-up delay-2">Estudiante de 2º DAW en Davante apasionado por el desarrollo Full Stack y la creación de soluciones digitales eficientes.</p>
+
+                <div class="social-links d-flex justify-content-center gap-3 mb-5 animate-up delay-3">
+                    <a href="https://github.com/nenosfc" target="_blank" class="social-icon text-decoration-none text-white">
+                        <i class="fab fa-github me-2"></i>GitHub
+                    </a>
+                    <a href="mailto:nenosfc97@gmail.com" class="social-icon text-decoration-none text-white">
+                        <i class="fas fa-envelope me-2"></i>Email
+                    </a>
+                    <a href="#" class="social-icon text-decoration-none text-white">
+                        <i class="fab fa-linkedin me-2"></i>LinkedIn
+                    </a>
+                </div>
+
+                <div class="cta-buttons d-flex justify-content-center gap-3 animate-up delay-3">
+                    <a href="#contact" class="btn btn-primary rounded-pill px-4 py-2">Contactar</a>
+                    <a href="#cv-section" class="btn btn-outline-primary rounded-pill px-4 py-2">Ver CV</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section id="about" class="section py-5">
+    <div class="container">
+        <h2 class="section-title text-center mb-5">Sobre Mí & Video CV</h2>
+        <div class="row align-items-center g-5">
+            <div class="col-md-6 about-text">
+                <p class="text-secondary lead">Soy José Miguel Rodríguez Talaverón, actualmente cursando el segundo año de Desarrollo de Aplicaciones Web en <strong>Davante</strong>. Mi enfoque se centra en construir aplicaciones robustas tanto en el frontend como en el backend.</p>
+                <p class="text-secondary lead">Cuento con una trayectoria profesional que me ha permitido desarrollar habilidades clave como la gestión de equipos, la resolución de problemas bajo presión y la atención al detalle.</p>
+            </div>
+            <div class="col-md-6">
+                <div class="video-wrapper ratio ratio-16x9 shadow-lg rounded-4 overflow-hidden">
+                    <iframe width="560" height="315"
+                            src="https://www.youtube-nocookie.com/embed/Ds8lRXWfoPE"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="skills" class="section py-5 bg-alt">
+    <div class="container">
+        <h2 class="section-title text-center mb-5">Habilidades Técnicas</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="skill-card p-4 rounded-4 h-100">
+                    <i class="fas fa-code fa-2x text-accent mb-3"></i>
+                    <h4 class="mb-3">Frontend</h4>
+                    <p class="text-secondary">HTML5, CSS3, JavaScript (ES6+), TypeScript, React, Angular.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="skill-card p-4 rounded-4 h-100">
+                    <i class="fas fa-server fa-2x text-accent mb-3"></i>
+                    <h4 class="mb-3">Backend</h4>
+                    <p class="text-secondary">Java, PHP.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="skill-card p-4 rounded-4 h-100">
+                    <i class="fas fa-database fa-2x text-accent mb-3"></i>
+                    <h4 class="mb-3">Herramientas & DB</h4>
+                    <p class="text-secondary">MySQL, Oracle Database, Git, GitHub.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="projects" class="section py-5">
+    <div class="container">
+        <h2 class="section-title text-center mb-5">Proyectos Destacados</h2>
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="card h-100 bg-alt border-secondary project-card">
+                    <div class="card-body p-4">
+                        <div class="d-flex justify-content-between mb-3">
+                            <span class="badge bg-primary rounded-pill">Web Design</span>
+                            <div class="project-links">
+                                <a href="https://github.com/nenosfc/Actividad-17-RSS-PaginaWeb" target="_blank" class="text-white me-2"><i class="fab fa-github"></i></a>
+                                <a href="https://candid-gumdrop-8e80e1.netlify.app/" target="_blank" class="text-white"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <h5 class="card-title text-accent">Primera página web</h5>
+                        <p class="card-text text-secondary">Desarrollo de una interfaz web estática enfocada en la maquetación y estructura semántica.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card h-100 bg-alt border-secondary project-card">
+                    <div class="card-body p-4">
+                        <div class="d-flex justify-content-between mb-3">
+                            <span class="badge bg-primary rounded-pill">JavaScript Game</span>
+                            <div class="project-links">
+                                <a href="https://github.com/nenosfc/Jarrowin" target="_blank" class="text-white me-2"><i class="fab fa-github"></i></a>
+                                <a href="https://jarrowin.netlify.app/" target="_blank" class="text-white"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <h5 class="card-title text-accent">Juego de contador</h5>
+                        <p class="card-text text-secondary">Aplicación interactiva desarrollada con JavaScript para gestionar lógica de estados en tiempo real.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="cv-section" class="section bg-alt py-5">
+    <div class="container">
+        <div class="row g-5">
+            <div class="col-lg-6">
+                <h2 class="section-title mb-4">Experiencia Profesional</h2>
+                <div class="timeline">
+                    <div class="timeline-item mb-4">
+                        <h5 class="text-accent">Encargado | Cervecería La 020</h5>
+                        <span class="text-secondary small">Nov. 2024 - Actualidad</span>
+                        <p class="text-secondary">Liderazgo de equipo y gestión operativa del establecimiento.</p>
+                    </div>
+                    <div class="timeline-item mb-4">
+                        <h5 class="text-accent">Camarero | Cervecería El Abrelatas</h5>
+                        <span class="text-secondary small">Sept. 2022 - Sept. 2024</span>
+                    </div>
+                    <div class="timeline-item mb-4">
+                        <h5 class="text-accent">Camarero | Hotel Oromana</h5>
+                        <span class="text-secondary small">Mayo 2021 - Sept. 2022</span>
+                    </div>
+                </div>
+                <div class="mt-4">
+                    <a href="assets/img/cv.jpg" class="btn btn-primary rounded-pill px-4 me-2" download>📥 Descargar CV</a>
+                    <button id="toggle-cv" class="btn btn-outline-primary rounded-pill px-4">👁️ Ver Online</button>
+                </div>
+                <div id="cv-preview" class="mt-4" style="display: none;">
+                    <img src="assets/img/cv.jpg" alt="CV" class="img-fluid rounded shadow-lg border border-secondary">
+                </div>
+            </div>
+
+            <div class="col-lg-6" id="contact">
+                <h2 class="section-title mb-4">Contacto</h2>
+                <form id="contact-form" class="contact-form p-4 rounded-4 bg-dark">
+                    <div class="mb-3">
+                        <label class="form-label text-secondary">Nombre</label>
+                        <input type="text" class="form-control bg-transparent text-light border-secondary" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label text-secondary">Email</label>
+                        <input type="email" class="form-control bg-transparent text-light border-secondary" required>
+                    </div>
+                    <div class="mb-4">
+                        <label class="form-label text-secondary">Mensaje</label>
+                        <textarea class="form-control bg-transparent text-light border-secondary" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100 rounded-pill py-2">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="py-4 text-center border-top border-secondary bg-dark">
+    <div class="container">
+        <p class="text-secondary mb-0">&copy; 2025 José Miguel Rodríguez Talaverón. Todos los derechos reservados.</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
